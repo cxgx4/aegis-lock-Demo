@@ -15,6 +15,7 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "aegis-lock/dist/crypto": path.resolve(__dirname, "./node_modules/aegis-lock/dist/crypto.js"),
     },
   },
 }));
