@@ -1,0 +1,2 @@
+ALTER TABLE secure_fields ALTER COLUMN iv DROP NOT NULL;
+ALTER TABLE secure_fields ALTER COLUMN iv SET DEFAULT 'legacy';
